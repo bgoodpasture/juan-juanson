@@ -1,0 +1,36 @@
+Explain the relationship between .new() and def initialize().
+def initialize is a special method that runs whenever you type .new and it creates a new instance.
+
+Define class, subclass, instance, and self.
+class = animal (bear)
+subclass = types of animals (herbivore, omnivore)
+instance = creation of 1 animal (brown bear)
+self = refers to the specifics to the instance of an Animal/class
+
+Properly define instance and class variables.
+instance is the creation of a class and the variables are what
+
+describe the instantiation.
+is the unique creation of a class using the .new method.
+
+Properly define instance and class methods.
+A class method pertains to the containing class, while an instance method pertains to the instance of that class.
+
+
+Distinguish whether a piece of data is best suited to being stored in a local, instance, or class variable.
+class variables data is applied to the class so all instantiations must have these variables.
+
+instance variables apply to every instance and will be there as long as the instance exists.
+
+local variables pertain to only one instance and do not exist outside of that instance.
+
+Describe the relationship of attr_ and “getter” and “setter” methods.
+attr_ is a shortcut to define the properties of an object.
+getter gets the value of a property
+setter sets the value of a property
+
+Distinguish whether a piece of data is best suited to having its accessibility defined by attr_reader, attr_writer, attr_accessor or none of the above.
+
+attr_reader,  allows you to only read the value of the property
+attr_writer,  allows you to only write the value of the property
+attr_accessor, allows you to both read and write the properties value
